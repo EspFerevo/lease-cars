@@ -103,3 +103,27 @@ body {
 
   margin-bottom: 50px;
 }
+
+.footer__copy {
+  max-width: 810px;
+  margin: 0 auto 30px;
+  text-align: center;
+
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.footer__number {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
+
+.copy__nav-list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
