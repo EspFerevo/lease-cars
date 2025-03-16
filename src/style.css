@@ -82,6 +82,34 @@ body {
 .main {
   flex: 1;
 }
+
+/* Hero section */
+.top {
+  display: flex;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+
+  padding-top: 105px;
+  padding-bottom: 50px;
+}
+
+.title {
+  font-size: 96px;
+
+  margin-bottom: 40px;
+}
+
+.top__link {
+  display: inline-block;
+  font-size: 36px;
+  padding: 23px;
+  max-width: 430px;
+  width: 100%;
+  background-color: #151515;
+  text-transform: uppercase;
+}
+
 /* Footer */
 .footer {
   background-color: #151515;
