@@ -171,10 +171,13 @@ body {
 }
 
 .why-lease__list {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 40px;
+  text-align: center;
 }
+
+
 
 /* Footer */
 .footer {
