@@ -100,7 +100,7 @@ body {
   font-weight: 700;
   color: #fff;
 
-  padding-top: 250px;
+  padding-top: 200px;
   padding-bottom: 50px;
 
   position: absolute;
@@ -139,6 +139,22 @@ body {
   right: 0;
   bottom: 0;
   top: 0;
+}
+
+.swiper-pagination-bullet {
+  height: 3px;
+  width: 120px;
+  background-color: #151515;
+  border-radius: 0;
+  opacity: 1;
+
+  margin: 0 15px !important;
+  margin-bottom: 50px !important;
+}
+
+.swiper-pagination-bullet-active {
+  height: 6px;
+  background-color: #fff;
 }
 
 /* Footer */
