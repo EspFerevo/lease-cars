@@ -18,6 +18,10 @@ body {
   margin: 0;
 }
 
+/* body {
+  user-select: none;
+} */
+
 ul,
 li {
   list-style: none;
@@ -56,6 +60,12 @@ body {
 
 .header-main {
   background-color: transparent;
+
+  position: absolute;
+  z-index: 5;
+
+  left: 0;
+  right: 0;
 }
 
 .header__inner {
@@ -90,8 +100,14 @@ body {
   font-weight: 700;
   color: #fff;
 
-  padding-top: 105px;
+  padding-top: 250px;
   padding-bottom: 50px;
+
+  position: absolute;
+  z-index: 5;
+
+  left: 0;
+  right: 0;
 }
 
 .title {
@@ -110,11 +126,7 @@ body {
   text-transform: uppercase;
 }
 
-
-.swiper-wripper { 
-  
-}
-.swiper-slide { 
+.swiper-slide {
   height: 100vh;
 }
 
