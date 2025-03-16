@@ -157,6 +157,25 @@ body {
   background-color: #fff;
 }
 
+/* Why lease section */
+
+.why-lease {
+  margin: 150px 0;
+  text-align: center;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+
+.why-lease__list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
 /* Footer */
 .footer {
   background-color: #151515;
