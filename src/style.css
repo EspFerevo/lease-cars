@@ -110,6 +110,10 @@ body {
   text-transform: uppercase;
 }
 
+.swiper-slide { 
+  height: 100vh;
+}
+
 /* Footer */
 .footer {
   background-color: #151515;
