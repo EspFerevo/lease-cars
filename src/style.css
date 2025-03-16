@@ -191,6 +191,37 @@ body {
   text-align: left;
 }
 
+/* How does section */
+
+.how-does {
+  padding-bottom: 150px;
+}
+
+.how__does-inner {
+  max-width: 594px;
+  margin: 0 auto;
+}
+
+.how__does-title {
+  font-size: 24px;
+  font-weight: 700;
+  padding-top: 50px;
+}
+
+.how-does__list {
+  padding: 50px 0 70px;
+  counter-reset: MyCounter;
+}
+
+.how-does__list::before {
+  counter-increment: MyCounter;
+  content: counter(MyCounter);
+}
+
+.how-does__item {
+  list-style-type: none;
+}
+
 /* Footer */
 .footer {
   background-color: #151515;
