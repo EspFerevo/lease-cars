@@ -110,6 +110,10 @@ body {
   text-transform: uppercase;
 }
 
+
+.swiper-wripper { 
+  
+}
 .swiper-slide { 
   height: 100vh;
 }
