@@ -177,7 +177,19 @@ body {
   text-align: center;
 }
 
+.why-lease__img {
+  margin-bottom: 30px;
+}
 
+.why-lease__title {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.why-lease__text {
+  font-size: 16px;
+  text-align: left;
+}
 
 /* Footer */
 .footer {
