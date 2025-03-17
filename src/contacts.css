@@ -67,4 +67,22 @@
   background-color: #003f80;
 }
 
+.blog {
+  padding-bottom: 150px;
+}
 
+.blog__items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.blog__item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.blog-item__img {
+  margin-bottom: 30px;
+}
