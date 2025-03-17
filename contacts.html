@@ -18,6 +18,7 @@
       rel="stylesheet"
     />
 
+    <link rel="stylesheet" href="/src/contacts.css" />
     <link rel="stylesheet" href="/src/style.css" />
   </head>
 
@@ -63,7 +64,47 @@
 
       <!-- Main -->
       <main class="main">
-        
+        <section class="contacts">
+          <div class="container">
+            <h2 class="section-title contacts__title">Contact Us</h2>
+            <p class="contacts__text">
+              Feel free to contact us with questions, potencial partnerships or
+              media inquiries
+            </p>
+
+            <form action="/submit" class="contacts__form">
+              <input
+                id="name"
+                name="name"
+                placeholder="Name"
+                type="text"
+                class="form__input"
+                required
+              />
+
+              <input
+                id="email"
+                name="email"
+                placeholder="E-mail"
+                type="email"
+                class="form__input"
+                required
+              />
+
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Your text"
+                class="form__textarea"
+                required
+              ></textarea>
+
+              <button type="submit" class="form__btn">SUBMIT</button>
+            </form>
+          </div>
+
+          
+        </section>
       </main>
 
       <!-- Footer -->
@@ -153,11 +194,12 @@
 
           <!-- Footer Copy -->
           <div class="footer__copy">
-            <br class="footer__copy-text">
+            <p class="footer__copy-text">
               For questions about the TrueCar Auto Buying Service please call
-              <span class="footer__number">1-888-878-3227</span>. </br> Certified Dealers are contractually obligated by
-              TrueCar to meet certain customer service requirements and complete
-              the TrueCar Dealer Certification Program.
+              <span class="footer__number">1-888-878-3227</span>. <br />
+              Certified Dealers are contractually obligated by TrueCar to meet
+              certain customer service requirements and complete the TrueCar
+              Dealer Certification Program.
             </p>
 
             <p class="footer__copy-text">
