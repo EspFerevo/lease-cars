@@ -11,3 +11,5 @@ const swiper = new Swiper(".swiper", {
     disableOnInteraction: false, // Не отключать после взаимодействия
   },
 });
+
+
