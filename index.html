@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <!-- Head -->
   <head>
@@ -36,9 +36,9 @@
       <header class="header header-main">
         <div class="container">
           <div class="header__inner">
-            <a href="./index.html" class="logo">
+            <a href="index.html" class="logo">
               <img
-                src="/public/logo.svg"
+                src="public/logo.svg"
                 alt=""
                 class="logo__img"
                 loading="lazy"
@@ -87,7 +87,27 @@
               <div
                 class="swiper-slide"
                 style="
-                  background-image: url(&quot;./src/images/slider-img/slider-img-1.png&quot;);
+                  background-image: url('src/images/slider-img/slider-img-1.png');
+                  background-size: cover;
+                  background-position: center;
+                "
+              ></div>
+
+              <div
+                class="swiper-slide"
+                loading="lazy"
+                style='
+                  background-image: url("src/images/slider-img/slider-img-2.jpg&quot);
+                  background-size: cover;
+                  background-position: center;
+                '
+              ></div>
+
+              <div
+                class="swiper-slide"
+                loading="lazy"
+                style="
+                  background-image: url('src/images/slider-img/slider-img-3.jpg');
                   background-size: cover;
                   background-position: center;
                 "
@@ -97,27 +117,7 @@
                 class="swiper-slide"
                 loading="lazy"
                 style="
-                  background-image: url(&quot./src/images/slider-img/slider-img-2.jpg&quot);
-                  background-size: cover;
-                  background-position: center;
-                "
-              ></div>
-
-              <div
-                class="swiper-slide"
-                loading="lazy"
-                style="
-                  background-image: url(&quot;./src/images/slider-img/slider-img-3.jpg&quot;);
-                  background-size: cover;
-                  background-position: center;
-                "
-              ></div>
-
-              <div
-                class="swiper-slide"
-                loading="lazy"
-                style="
-                  background-image: url(&quot;./src/images/slider-img/slider-img-4.jpg&quot;);
+                  background-image: url('src/images/slider-img/slider-img-4.jpg');
                   background-size: cover;
                   background-position: center;
                 "
@@ -136,7 +136,7 @@
             <ul class="why-lease__list">
               <li class="why-lease__item">
                 <img
-                  src="./src/images/lease-img/lease-img-1.svg"
+                  src="src/images/lease-img/lease-img-1.svg"
                   alt=""
                   class="why-lease__img"
                 />
@@ -149,7 +149,7 @@
 
               <li class="why-lease__item">
                 <img
-                  src="./src/images/lease-img/lease-img-2.svg"
+                  src="src/images/lease-img/lease-img-2.svg"
                   alt=""
                   class="why-lease__img"
                 />
@@ -162,7 +162,7 @@
 
               <li class="why-lease__item">
                 <img
-                  src="./src/images/lease-img/lease-img-3.svg"
+                  src="src/images/lease-img/lease-img-3.svg"
                   alt=""
                   class="why-lease__img"
                 />
@@ -175,7 +175,7 @@
 
               <li class="why-lease__item">
                 <img
-                  src="./src/images/lease-img/lease-img-4.svg"
+                  src="src/images/lease-img/lease-img-4.svg"
                   alt=""
                   class="why-lease__img"
                 />
@@ -274,7 +274,7 @@
             <ul class="important__list">
               <li class="important__item">
                 <img
-                  src="/src/images/important-section/img-1.jpg"
+                  src="src/images/important-section/img-1.jpg"
                   alt=""
                   class="important__img"
                 />
@@ -286,7 +286,7 @@
 
               <li class="important__item">
                 <img
-                  src="/src/images/important-section/img-2.jpg"
+                  src="src/images/important-section/img-2.jpg"
                   alt=""
                   class="important__img"
                 />
@@ -298,7 +298,7 @@
 
               <li class="important__item">
                 <img
-                  src="/src/images/important-section/img-3.jpg"
+                  src="src/images/important-section/img-3.jpg"
                   alt=""
                   class="important__img"
                 />
@@ -309,7 +309,7 @@
 
               <li class="important__item">
                 <img
-                  src="/src/images/important-section/img-4.jpg"
+                  src="src/images/important-section/img-4.jpg"
                   alt=""
                   class="important__img"
                 />
@@ -393,7 +393,7 @@
               <a href="#" target="_blank" class="app_item-link">
                 <img
                   class="app__item-img"
-                  src="/src/images/svg/appstore.svg"
+                  src="src/images/svg/appstore.svg"
                   alt="Link to AppStore"
               /></a>
             </li>
@@ -402,7 +402,7 @@
               <a href="#" target="_blank" class="app_item-link">
                 <img
                   class="app__item-img"
-                  src="/src/images/svg/googlemarket.svg"
+                  src="src/images/svg/googlemarket.svg"
                   alt="Link to GoogleMarket"
               /></a>
             </li>
@@ -451,6 +451,6 @@
 
     <!-- Script JS  -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script type="module" src="/src/main.js" defer></script>
+    <script type="module" src="src/main.js" defer></script>
   </body>
 </html>
