@@ -25,6 +25,8 @@
   gap: 100px 40px;
 }
 
+/*  */
+
 .card {
   font-weight: 700;
   text-align: center;
@@ -35,6 +37,7 @@
 }
 
 .card__img {
+  display: block;
   margin-bottom: 20px;
 }
 
