@@ -215,16 +215,20 @@ body {
 
 .how-does__item {
   display: flex;
-gap: 70px;
+  gap: 140px;
   padding: 50px 0 70px;
   counter-reset: MyCounter;
+}
+
+.how-does__text-list {
+  max-width: 270px;
 }
 
 .how-does__item::before {
   content: counter(item);
   counter-increment: item;
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   background-color: #3478f6;
   border-radius: 50%;
 
