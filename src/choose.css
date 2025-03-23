@@ -18,3 +18,7 @@
   background-color: inherit;
   padding: 0;
 }
+
+.tabs__content-item {
+  display: grid;
+}
