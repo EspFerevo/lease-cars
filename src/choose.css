@@ -1,5 +1,5 @@
 .choose {
-  padding: 100px 0 50px;
+  padding: 100px 0 150px;
 }
 
 .tabs__btn {
@@ -19,13 +19,14 @@
   padding: 0;
 }
 
+/*  */
+
 .tabs__content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 100px 40px;
+  margin-bottom: 80px;
 }
-
-/*  */
 
 .card {
   text-align: center;
