@@ -28,12 +28,8 @@
 /*  */
 
 .card {
-  font-weight: 700;
   text-align: center;
   color: #151515;
-  font-size: 24px;
-
-  border: 1px solid #06f;
 }
 
 .card__img {
@@ -41,7 +37,13 @@
   margin-bottom: 20px;
 }
 
+.card__content {
+  padding: 0 5px;
+}
+
 .card__title {
+  font-weight: 700;
+  font-size: 24px;
   margin-bottom: 20px;
 }
 
@@ -51,8 +53,17 @@
   margin-bottom: 20px;
 }
 
+.card__price {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
 .card__link {
+  display: block;
   font-weight: 400;
   font-size: 16px;
+
   color: #06f;
+
 }
