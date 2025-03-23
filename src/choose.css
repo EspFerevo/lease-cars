@@ -4,12 +4,10 @@
 
 .tabs__btn {
   padding: 0 150px;
-
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-
+  display: flex;
+  justify-content: space-between;
   gap: 80px;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
 }
 
 .tabs__btn-item {
@@ -18,4 +16,5 @@
   cursor: pointer;
   border: none;
   background-color: inherit;
+  padding: 0;
 }
