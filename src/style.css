@@ -210,10 +210,12 @@ body {
   font-size: 24px;
   font-weight: bold;
   color: #222;
-  margin-bottom: 25px;
+  margin: 50px 0 50px;
 }
 
 .how-does__item {
+  display: flex;
+gap: 70px;
   padding: 50px 0 70px;
   counter-reset: MyCounter;
 }
@@ -221,13 +223,15 @@ body {
 .how-does__item::before {
   content: counter(item);
   counter-increment: item;
-  width: 40px;
-  height: 40px;
+  width: 80px;
+  height: 80px;
   background-color: #3478f6;
   border-radius: 50%;
+
   display: flex;
   align-items: center;
   justify-content: center;
+
   color: white;
   font-size: 18px;
   font-weight: bold;
